@@ -70,7 +70,7 @@ margin-bottom: 24px;
       position: absolute;
       text-align: center;
       font-size: 3.0rem;
-      width: 180px;
+      width: 194px;
       height: 90px;
       
 
