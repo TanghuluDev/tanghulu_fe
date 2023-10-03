@@ -95,7 +95,6 @@ margin-bottom: 24px;
             <Dango>
               <div>
                 <span>Phase 1</span> <br />
-                
                 · 1,000 holders<br />
                 · Token Launch<br />
                 · Website Launch<br />
@@ -106,19 +105,19 @@ margin-bottom: 24px;
             <Dango>
               <div>
                 <span>Phase 2</span> <br />
-· 5,000 Holders<br />
-· Community Partnerships<br />
-· Exchange Listings<br />
-· Further Digital Marketing<br />
+                · 10,000 Holders<br />
+                · Exchange Listings<br />
+                · Community Partnership<br />
+                · Further Digital Marketing<br />
               </div>
             </Dango>
             <Stick />
             <Dango>
               <div>
               <span>Phase 3</span> <br />
-              · 10,000 Holders<br />
-              · International Communities<br />
+              · 30,000 Holders<br />
               · Website Revisions<br />
+              · TANGHULU IRL Events<br />
               · $TANGHULU Merchandise<br />
               </div>
             </Dango>
