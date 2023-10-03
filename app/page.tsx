@@ -8,6 +8,7 @@ import Section2 from './section2';
 import Section3 from './section3';
 import Section4 from './section4';
 import Section5 from './section5';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -46,22 +47,34 @@ export default function Home() {
               gap: 20,
               fontSize:"1.4rem"
             }}>
-              <div>
+              <div style={{
+                cursor: "pointer"
+              }}>
+                <Link href="">
                 Etherscan
+                </Link>
               </div>
-              <div>
-                Dextools
+              <div style={{
+                cursor: "pointer"
+              }}>
+                 <Link href="">Dextools</Link>  
               </div>
-              <div>
-                Uniswap
+              <div style={{
+                cursor: "pointer"
+              }}>
+                 <Link href="">Uniswap</Link>
               </div>
-              <div>
-                Twitter
+              <div style={{
+                cursor: "pointer"
+              }}>
+                 <Link href="">Twitter</Link>
               </div>
-              <div>
-                Telegram
+              <div style={{
+                cursor: "pointer"
+              }}>
+                <Link href="">Telegram</Link>
               </div>
-              
+
             </div>
             <div>Copyright © 2023 TanghuluETH</div>
           </div>

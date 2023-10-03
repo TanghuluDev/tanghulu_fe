@@ -94,14 +94,14 @@ margin-bottom: 24px;
           <Stick></Stick>
           <Dango>
             <div>
-            <span>1%</span> <br />
+            <span>0%</span> <br />
             Buy Tax
             </div>
           </Dango>
           <Stick></Stick>
           <Dango>
             <div>
-            <span>1%</span> <br />
+            <span>0%</span> <br />
             Sell Tax
             </div>
           </Dango>
