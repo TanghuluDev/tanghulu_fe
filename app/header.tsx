@@ -67,7 +67,7 @@ const Menu = Styled.div`
           <Link href="#about"><Menu>About</Menu></Link>
           <Link href="#tokenomics"><Menu>Tokenomics</Menu></Link>
           <Link href="#roadmap"><Menu>Roadmap</Menu></Link>
-          <Link href="#"><Button>Buy $TANGHULU</Button></Link>
+          <Link href="#"><Button>Buy $TANG</Button></Link>
         </div>
       </Heading>
 

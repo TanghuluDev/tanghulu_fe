@@ -118,7 +118,7 @@ margin-bottom: 24px;
               · 30,000 Holders<br />
               · Website Revisions<br />
               · TANGHULU IRL Events<br />
-              · $TANGHULU Merchandise<br />
+              · $TANG Merchandise<br />
               </div>
             </Dango>
             <StickEnd />

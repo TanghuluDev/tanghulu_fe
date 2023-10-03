@@ -72,7 +72,7 @@ export default function Section1() {
           <H1 className="font"><span style={{
             // color: "var(--PC)"
           }}>Tang</span>hulu</H1>
-          <H2>The world's sweetest token, $TANGHULU</H2>
+          <H2>The world's sweetest token, $TANG</H2>
           <div className="link" style={{
             display: "flex",
             justifyContent: "center",
