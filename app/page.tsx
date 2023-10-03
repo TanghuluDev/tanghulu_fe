@@ -47,34 +47,46 @@ export default function Home() {
               gap: 20,
               fontSize:"1.4rem"
             }}>
+              <Link href="">
               <div style={{
-                cursor: "pointer"
+                cursor: "pointer",
+                color: "#fff"
               }}>
-                <Link href="">
                 Etherscan
-                </Link>
               </div>
+              </Link>
+              <Link href="">
               <div style={{
-                cursor: "pointer"
+                cursor: "pointer",
+                color: "#fff"
               }}>
-                 <Link href="">Dextools</Link>  
+                Dextools
               </div>
+              </Link>
+              <Link href="">
               <div style={{
-                cursor: "pointer"
+                cursor: "pointer",
+                color: "#fff"
               }}>
-                 <Link href="">Uniswap</Link>
+                Uniswap
               </div>
+              </Link>
+              <Link href="">
               <div style={{
-                cursor: "pointer"
+                cursor: "pointer",
+                color: "#fff"
               }}>
-                 <Link href="">Twitter</Link>
+                 Twitter
               </div>
+              </Link>
+              <Link href="">
               <div style={{
-                cursor: "pointer"
+                cursor: "pointer",
+                color: "#fff"
               }}>
-                <Link href="">Telegram</Link>
+                Telegram
               </div>
-
+              </Link>
             </div>
             <div>Copyright © 2023 TanghuluETH</div>
           </div>
