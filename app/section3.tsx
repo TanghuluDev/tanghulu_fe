@@ -96,7 +96,7 @@ margin-bottom: 24px;
         <Row>
           <Dango>
             <div>
-            <span>5 Trillion</span> <br />
+            <span>69 Billion</span> <br />
             Total Supply
             </div>
           </Dango>
