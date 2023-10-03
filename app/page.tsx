@@ -57,9 +57,7 @@ export default function Home() {
               gap: 20,
               fontSize:"1.4rem"
             }}>
-              <Link onClick={() => {
-                alert("Not yet! Stay tuned!");
-              }} href="/" >
+               <Link href="https://etherscan.io/address/0x0f4C8b8ad2f832b3E430Dd6d3b03b80B026604A9" rel="noopener noreferrer" target="_blank">
               <div style={{
                 cursor: "pointer",
                 color: "#fff"
@@ -67,9 +65,7 @@ export default function Home() {
                 Etherscan
               </div>
               </Link>
-              <Link onClick={() => {
-                alert("Not yet! Stay tuned!");
-              }} href="/" >
+              <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0x6f486af539ca6ee68a5594940d4f6e78ee898456" rel="noopener noreferrer" target="_blank">
               <div style={{
                 cursor: "pointer",
                 color: "#fff"
@@ -77,9 +73,7 @@ export default function Home() {
                 Dextools
               </div>
               </Link>
-              <Link onClick={() => {
-                alert("Not yet! Stay tuned!");
-              }} href="/" >
+              <Link href="https://app.uniswap.org/tokens/ethereum/0x0f4c8b8ad2f832b3e430dd6d3b03b80b026604a9" rel="noopener noreferrer" target="_blank">
               <div style={{
                 cursor: "pointer",
                 color: "#fff"

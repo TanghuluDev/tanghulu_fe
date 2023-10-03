@@ -79,9 +79,7 @@ export default function Section1() {
             gap: 14,
             marginBottom: 120
           }}>
-            <Link href="/" onClick={() => {
-              alert("Not yet, stay tuned!")
-            }}>
+            <Link href="https://etherscan.io/address/0x0f4C8b8ad2f832b3E430Dd6d3b03b80B026604A9" rel="noopener noreferrer" target="_blank">
             <div className="etherscan" style={{
               background: "url(/etherscan-button.png) center center no-repeat",
               backgroundSize: "60px 60px",
@@ -106,14 +104,12 @@ export default function Section1() {
             }}></div>
             </Link>
           </div>
-          {/* TODO: ENABLE */}
-          {/* <CA className="ca" style={{
+          <CA className="ca" style={{
         
           }}><span style={{
             fontSize: '1.6rem',
             fontWeight: 800
-          }}>Contract Address (ETH)</span><br />0x1234123412341234123412341234123412341234</CA> */}
-          
+          }}>Contract Address (ETH)</span><br />0x0f4C8b8ad2f832b3E430Dd6d3b03b80B026604A9</CA>
         </div>
         </Background>
       </Section>
