@@ -16,12 +16,6 @@ export default function Header() {
       background: #fff;
       padding: 10px 20px;
       align-items: center;
-      @media (max-width: 767px) {
-          text-align: center;
-      }
-      @media (max-width: 400px) {
-          text-align: left;
-      }
 `;
 
 const Button = Styled.div`
@@ -52,6 +46,9 @@ const Menu = Styled.div`
       text-decoration: none;
       &:hover {
         color: rgb(240, 125, 31);
+      }
+      @media (max-width: 700px) {
+        display: none;
       }
 `;
 

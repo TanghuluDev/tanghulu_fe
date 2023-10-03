@@ -9,6 +9,7 @@ import Section3 from './section3';
 import Section4 from './section4';
 import Section5 from './section5';
 import Link from 'next/link';
+import Styled from 'styled-components';
 
 export default function Home() {
 
@@ -21,6 +22,15 @@ export default function Home() {
   if (!isClient) {
     return <div></div>
   }
+
+  const Row = Styled.div`
+    @media (max-width: 700px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  `;
 
   return (
     <>
@@ -38,7 +48,7 @@ export default function Home() {
           fontSize: "1.0rem",
           padding: "30px 30px"
         }}>
-          <div style={{
+          <Row style={{
               display: "flex",
               justifyContent: "space-between"
             }}>
@@ -89,7 +99,7 @@ export default function Home() {
               </Link>
             </div>
             <div>Copyright © 2023 TanghuluETH</div>
-          </div>
+          </Row>
          
         </footer>
       </main>

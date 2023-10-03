@@ -7,10 +7,8 @@ import Background from './animation-background';
 
 export default function Section1() {
   const Section = Styled.section`
-  
     text-align: center;
     width: 100vw;
-
   `; 
 
   const Img = Styled.img`
@@ -18,6 +16,7 @@ export default function Section1() {
     height: 300px;
     margin: 0px;
     padding: 0px;
+    
   `; 
 
   const H1 = Styled.h1`
@@ -25,6 +24,10 @@ export default function Section1() {
     font-size: 9.0rem;
     color: #fff;
     text-shadow: var(--PC) 0px 6px 4px;
+    @media (max-width: 700px) {
+      font-size: 8.0rem;
+      text-shadow: var(--SC) 0px 2px 2px;
+    }
   `; 
 
 
@@ -33,6 +36,9 @@ export default function Section1() {
     font-weight: 400;
     margin-bottom: 30px;
     color: #fff;
+    @media (max-width: 700px) {
+      font-size: 2.0rem;
+    }
   `; 
 
   const CA = Styled.div`
@@ -45,6 +51,10 @@ export default function Section1() {
     border-radius: 100px;
     margin: 0 auto;
     color: white;    
+    @media (max-width: 700px) {
+      font-size: 1.7rem;
+      padding: 12px 16px;
+    }
   `;
 
   return (

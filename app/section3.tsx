@@ -17,6 +17,10 @@ export default function Section3() {
   const Rows = Styled.div`
     display: flex;
     gap: 40px;
+    @media (max-width: 700px) {
+      gap:0px;
+      flex-direction: column;
+    }
 
   `; 
   const Row = Styled.div`
@@ -66,11 +70,16 @@ margin-bottom: 24px;
       position: absolute;
       text-align: center;
       font-size: 3.0rem;
+      width: 180px;
+      height: 90px;
+      
+
     }
     & span {
       font-size: 4.6rem;
       color: var(--PC);
     }
+  
   `; 
 
   return (

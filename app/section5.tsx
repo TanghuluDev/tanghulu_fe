@@ -67,6 +67,11 @@ margin-bottom: 24px;
       text-align: center;
       font-size: 2.6rem;
       margin-top: 10px;
+      width: 326px;
+      height: 228px;
+      @media (max-width: 700px) {
+      
+      }
     }
     & span {
       font-size: 4.0rem;
@@ -94,7 +99,6 @@ margin-bottom: 24px;
                 · 1,000 holders<br />
                 · Token Launch<br />
                 · Website Launch<br />
-                · Social Media Presence<br />
                 · Trending on Twitter
               </div>
             </Dango>
@@ -105,7 +109,6 @@ margin-bottom: 24px;
 · 5,000 Holders<br />
 · Community Partnerships<br />
 · Exchange Listings<br />
-· Release Official Partnerships<br />
 · Further Digital Marketing<br />
               </div>
             </Dango>

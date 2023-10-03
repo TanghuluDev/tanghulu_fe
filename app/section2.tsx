@@ -31,6 +31,9 @@ export default function Section2() {
     font-size: 1.8rem;
     line-height: 2.6rem;
     margin-bottom: 60px;
+    @media (max-width: 700px) {
+      max-width: 380px;
+    }
   `;
 
   const BgAnimation = Styled.div`
