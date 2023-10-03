@@ -57,7 +57,9 @@ export default function Home() {
               gap: 20,
               fontSize:"1.4rem"
             }}>
-              <Link href="">
+              <Link onClick={() => {
+                alert("Not yet! Stay tuned!");
+              }} href="/" >
               <div style={{
                 cursor: "pointer",
                 color: "#fff"
@@ -65,7 +67,9 @@ export default function Home() {
                 Etherscan
               </div>
               </Link>
-              <Link href="">
+              <Link onClick={() => {
+                alert("Not yet! Stay tuned!");
+              }} href="/" >
               <div style={{
                 cursor: "pointer",
                 color: "#fff"
@@ -73,7 +77,9 @@ export default function Home() {
                 Dextools
               </div>
               </Link>
-              <Link href="">
+              <Link onClick={() => {
+                alert("Not yet! Stay tuned!");
+              }} href="/" >
               <div style={{
                 cursor: "pointer",
                 color: "#fff"
@@ -81,7 +87,7 @@ export default function Home() {
                 Uniswap
               </div>
               </Link>
-              <Link href="">
+              <Link href="https://twitter.com/tanghulu_token" rel="noopener noreferrer" target="_blank">
               <div style={{
                 cursor: "pointer",
                 color: "#fff"
@@ -89,7 +95,7 @@ export default function Home() {
                  Twitter
               </div>
               </Link>
-              <Link href="">
+              <Link href="https://t.me/tanghuluPortal" rel="noopener noreferrer" target="_blank">
               <div style={{
                 cursor: "pointer",
                 color: "#fff"

@@ -79,31 +79,40 @@ export default function Section1() {
             gap: 14,
             marginBottom: 120
           }}>
+            <Link href="/" onClick={() => {
+              alert("Not yet, stay tuned!")
+            }}>
             <div className="etherscan" style={{
               background: "url(/etherscan-button.png) center center no-repeat",
               backgroundSize: "60px 60px",
               width: 60,
               height: 60
             }}></div>
+            </Link>
+            <Link href="https://t.me/tanghuluPortal" rel="noopener noreferrer" target="_blank">
             <div className="telegram" style={{
               background: "url(/telegram-button.png) center center no-repeat",
               backgroundSize: "60px 60px",
               width: 60,
               height: 60
             }}></div>
+            </Link>
+            <Link href="https://twitter.com/tanghulu_token" rel="noopener noreferrer" target="_blank">
             <div className="twitter" style={{
               background: "url(/twitter-button.png) center center no-repeat",
               backgroundSize: "60px 60px",
               width: 60,
               height: 60
             }}></div>
+            </Link>
           </div>
-          <CA className="ca" style={{
+          {/* TODO: ENABLE */}
+          {/* <CA className="ca" style={{
         
           }}><span style={{
             fontSize: '1.6rem',
             fontWeight: 800
-          }}>Contract Address (ETH)</span><br />0x1234123412341234123412341234123412341234</CA>
+          }}>Contract Address (ETH)</span><br />0x1234123412341234123412341234123412341234</CA> */}
           
         </div>
         </Background>

@@ -27,14 +27,20 @@ export default function Section4() {
 
   return (
     <>
+    <Link onClick={() => {
+            alert("Not yet! Stay tuned!");
+          }} href="/">
       <Section>
+        
           <h2 className="" style={{
             color: "#fff",
+            cursor: "pointer",
             fontSize: "4.0rem",
             display: "inline-block",
             paddingBottom: 3,
             borderBottom: "5px white solid"
         }}>Want a bite?</h2>
+        
           {/* <div className="">
             <div className="step">
               <div>Step 1 - Create MetaMask wallet</div>
@@ -54,6 +60,7 @@ export default function Section4() {
             </div>
           </div> */}
         </Section>
+        </Link>
     </>
   )
 }
